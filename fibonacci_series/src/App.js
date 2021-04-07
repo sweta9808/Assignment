@@ -71,8 +71,6 @@ class App extends React.Component {
 
     // Logic for displaying page numbers
     const pageNumbers = [];
-    console.log(fibonacciSeries);
-    console.log(todosPerPage);
     for (let i = 1; i <= Math.ceil(fibonacciSeries.length / todosPerPage); i++) {
       pageNumbers.push(i);
     }
