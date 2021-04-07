@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+.fibonacciItem{ padding-right: 5px;}
+.compositeNum{color: green;}
+.primeNum{color: blue;}
+.pageNumber{padding-right: 5px;cursor: pointer;}

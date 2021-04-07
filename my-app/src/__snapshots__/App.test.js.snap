@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Test Cases should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Input row container"
+  >
+    <div>
+      <label>
+        Department
+      </label>
+      <select
+        data-testid="select-department"
+        id="department"
+      >
+        <option
+          value="HR"
+        >
+          HR
+        </option>
+        <option
+          value="ENGINEERS"
+        >
+          ENGINEERS
+        </option>
+      </select>
+    </div>
+    <div>
+      <label>
+        Employment ID
+      </label>
+      <select
+        data-testid="emp-id"
+        id="emp"
+      >
+        <option
+          value="1"
+        >
+          1
+        </option>
+        <option
+          value="2"
+        >
+          2
+        </option>
+        <option
+          value="3"
+        >
+          3
+        </option>
+        <option
+          value="4"
+        >
+          4
+        </option>
+        <option
+          value="5"
+        >
+          5
+        </option>
+      </select>
+    </div>
+    <div>
+      <button
+        data-testid="get-details"
+        id="button"
+      >
+        Show Details
+      </button>
+    </div>
+    <div>
+      <button
+        data-testid="clear-all"
+        id="clear"
+      >
+        Clear
+      </button>
+    </div>
+  </div>
+  <div
+    class="Output"
+  />
+</DocumentFragment>
+`;
