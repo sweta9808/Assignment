@@ -22,7 +22,7 @@ class App extends React.Component {
     if (isNaN(num) || num < 0 || event.target.value[0] === '0' || num > 2000) {
       num = '';
      }
-     this.setState({value:num})
+     this.setState({value:num,isClicked:false})
     let fib = [0, 1];
     let data = [];
     
